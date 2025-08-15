@@ -7,7 +7,6 @@ import {
   FaMapMarkerAlt,
   FaLinkedin,
   FaGithub,
-  FaTwitter,
   FaPaperPlane,
   FaCheckCircle,
   FaExclamationCircle,
@@ -31,7 +30,7 @@ const Contact = () => {
     email: "vinitpawar8305@gmail.com",
     phone: "+91 8305621926",
     location: "Indore, Madhya Pradesh, India",
-    linkedin: "https://linkedin.com/in/vinitpawar",
+    linkedin: "https://www.linkedin.com/in/vinit-pawar83",
     github: "https://github.com/vinit8305",
   };
 
@@ -233,7 +232,6 @@ const Contact = () => {
                     rel="noopener noreferrer"
                     className="contact__social-link"
                   >
-                    <FaTwitter />
                   </a>
                 </div>
               </div>
