@@ -1,0 +1,134 @@
+.admin-login {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1d1d1d 0%, #2d2d2d 100%);
+  padding: 20px;
+
+  &__container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  &__header {
+    text-align: center;
+    margin-bottom: 30px;
+
+    h1 {
+      color: var(--yellow-theme-main-color);
+      font-size: 2rem;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    p {
+      color: #ccc;
+      font-size: 0.9rem;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    label {
+      color: #fff;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    input {
+      padding: 12px 16px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.5);
+      }
+
+      &:focus {
+        outline: none;
+        border-color: var(--yellow-theme-main-color);
+        background: rgba(255, 255, 255, 0.15);
+      }
+    }
+  }
+
+  &__submit {
+    padding: 12px 24px;
+    background: var(--yellow-theme-main-color);
+    color: #1d1d1d;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+
+    &:hover:not(:disabled) {
+      background: #ffd700;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+    }
+
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+  }
+
+  &__error {
+    background: rgba(255, 0, 0, 0.1);
+    border: 1px solid rgba(255, 0, 0, 0.3);
+    color: #ff6b6b;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  &__footer {
+    margin-top: 30px;
+    text-align: center;
+
+    p {
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 0.8rem;
+      font-style: italic;
+    }
+  }
+}
+
+// Responsive design
+@media (max-width: 480px) {
+  .admin-login {
+    padding: 10px;
+
+    &__container {
+      padding: 30px 20px;
+    }
+
+    &__header h1 {
+      font-size: 1.5rem;
+    }
+  }
+}
