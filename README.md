@@ -77,11 +77,7 @@ npm install
 #### Backend (.env file in backend folder)
 
 ```env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/portfolio
-JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
-ADMIN_EMAIL=admin@vinitpawar.com
-ADMIN_PASSWORD=admin123
+
 ```
 
 **Note:** Replace the JWT_SECRET with a strong, unique secret key for production.
@@ -145,11 +141,6 @@ The application will be available at:
 - **Backend API:** http://localhost:5000
 
 ## 🔐 Admin Access
-
-### Default Credentials
-
-- **Email:** admin@vinitpawar.com
-- **Password:** admin123
 
 ### Access Admin Panel
 
@@ -307,10 +298,6 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 **Vinit Pawar**
-
-- Email: vinitpawar8305@gmail.com
-- Location: Bangalore, India
-- Full-Stack Developer
 
 ---
 
