@@ -9,6 +9,7 @@ const resumeRoutes = require('./routes/resume');
 
 const app = express();
 
+
 // Middleware
 app.use(cors());
 app.use(express.json());
