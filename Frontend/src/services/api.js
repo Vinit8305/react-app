@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://react-app-backend-7fwu.onrender.com';// development 
+const API_BASE_URL = 'https://react-app-backend-7fwu.onrender.com/api';// development 
 // const API_BASE_URL = 'http://localhost:5000/api';
 
 // Create axios instance
