@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 backend/config.env
+Frontend/.env
 Frontend/node_modules
 backend/node_modules
 # testing
