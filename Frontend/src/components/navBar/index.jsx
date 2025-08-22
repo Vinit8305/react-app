@@ -55,6 +55,7 @@ const NavBar = () => {
               <Link
                 className="navbar__container__menu__item__links"
                 to={item.to}
+                onClick={() => setToggleIcon(false)} // 👈 close menu after navigation
               >
                 {item.label}
               </Link>
