@@ -69,7 +69,7 @@ const Portfolio = () => {
       category: "MOBILE APP",
       technologies: ["React Native", "Firebase", "Redux", "Native Base"],
       githubUrl: "https://github.com/rajeshpal53/qwikbill_mobile",
-      liveUrl: "https://drive.google.com/file/d/1n_zUye5tWBJh2ow6NAopFeh0aOlGaBCW/view?usp=drive_link",
+      liveUrl: "https://drive.google.com/file/d/1n_zUye5tWBJh2ow6NAopFeh0aOlGaBCW/view?usp=sharing",
       featured: false,
     },
   ];
